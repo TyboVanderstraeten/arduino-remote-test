@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArduinoTest", "ArduinoTest\ArduinoTest.csproj", "{FDD9FFB3-A910-4318-9ED0-D36D8AFEA0F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArduinoApi", "ArduinoApi\ArduinoApi.csproj", "{3CA43BC4-71F0-4703-89E4-79A21398C97C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArduinoXamarin.Android", "ArduinoXamarin\ArduinoXamarin.Android\ArduinoXamarin.Android.csproj", "{26F13C94-87F3-4202-876B-67806A1A5A40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArduinoXamarin", "ArduinoXamarin\ArduinoXamarin\ArduinoXamarin.csproj", "{B70DFBAF-DC4D-40E7-8095-AC3A29B99519}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDD9FFB3-A910-4318-9ED0-D36D8AFEA0F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDD9FFB3-A910-4318-9ED0-D36D8AFEA0F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDD9FFB3-A910-4318-9ED0-D36D8AFEA0F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDD9FFB3-A910-4318-9ED0-D36D8AFEA0F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CA43BC4-71F0-4703-89E4-79A21398C97C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA43BC4-71F0-4703-89E4-79A21398C97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA43BC4-71F0-4703-89E4-79A21398C97C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CA43BC4-71F0-4703-89E4-79A21398C97C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F13C94-87F3-4202-876B-67806A1A5A40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F13C94-87F3-4202-876B-67806A1A5A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F13C94-87F3-4202-876B-67806A1A5A40}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{26F13C94-87F3-4202-876B-67806A1A5A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F13C94-87F3-4202-876B-67806A1A5A40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F13C94-87F3-4202-876B-67806A1A5A40}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B70DFBAF-DC4D-40E7-8095-AC3A29B99519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B70DFBAF-DC4D-40E7-8095-AC3A29B99519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B70DFBAF-DC4D-40E7-8095-AC3A29B99519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B70DFBAF-DC4D-40E7-8095-AC3A29B99519}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBDEC48A-1AB3-4EBE-B570-A3BFADDE1303}
+	EndGlobalSection
+EndGlobal

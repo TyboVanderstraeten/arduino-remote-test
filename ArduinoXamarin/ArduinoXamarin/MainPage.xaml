@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArduinoXamarin.MainPage">
+
+    <StackLayout HorizontalOptions="CenterAndExpand"
+                 VerticalOptions="CenterAndExpand">
+        <Label Text="{Binding LEDStatus,StringFormat='LED on: {0}',Mode=TwoWay}" />
+        <Button Text="Turn on"
+                Clicked="ButtonTurnOn_Clicked" />
+        <Button Text="Turn off"
+                Clicked="ButtonTurnOff_Clicked" />
+    </StackLayout>
+
+</ContentPage>
